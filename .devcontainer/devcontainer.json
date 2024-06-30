@@ -1,0 +1,8 @@
+{
+  "name": "skeleton-test-devcontainer",
+  "image": "ghcr.io/iaingalloway/devcontainers/javascript:1.2-node22.2.0",
+  "remoteEnv": {
+    "HOST_WORKSPACE_PATH": "${localWorkspaceFolder}"
+  },
+  "runArgs": ["--name", "skeleton-test-devcontainer", "--network=host"]
+}
